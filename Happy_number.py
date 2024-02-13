@@ -24,4 +24,6 @@ def is_happy_number(number):
         return('true')
     else:
         return('false')
-print(is_happy_number(7))
+
+number = input("Введите число для проверки ")
+print(is_happy_number(number))
